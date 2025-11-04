@@ -12,3 +12,28 @@ Fonctionnalités requises :
 5.Supprimer une tâche
 6.Filtrer les tâches (toutes, actives, complétées)
 7.Rechercher une tâche
+
+# Design :
+
+Responsive (mobile-first)
+Interface moderne et intuitive
+Feedback visuel (loading, success, error)
+
+# Technologies :
+
+React (avec hooks)
+Axios pour les requêtes HTTP
+CSS ou Tailwind CSS
+Structure suggérée :
+
+src/
+├── components/
+│   ├── TaskList.jsx
+│   ├── TaskItem.jsx
+│   ├── TaskForm.jsx
+│   └── SearchBar.jsx
+├── services/
+│   └── api.js
+├── App.jsx
+└── index.js
+# Livrable : Repository GitHub + démo en ligne (Netlify/Vercel)
