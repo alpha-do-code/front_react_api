@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "E:\\FEVEO_Projets\\Front_React_MongoDB\\Front_react_api\\front_react_api\\dist"
+publishOrigin = "ui"
+commandOrigin = "ui"
+base = "E:\\FEVEO_Projets\\Front_React_MongoDB\\Front_react_api\\front_react_api"
+command = "npm run build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

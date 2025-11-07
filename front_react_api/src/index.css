@@ -1,0 +1,8 @@
+/* css-diagnostics-disable unknownAtRules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: #f5f8fd;
+  font-family: sans-serif;
+}
